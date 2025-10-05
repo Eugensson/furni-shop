@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Saira } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+
 import "./globals.css";
 
 const saira = Saira({
@@ -23,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${saira.variable} antialiased`}>{children}</body>
+      <body className={`${saira.variable} antialiased`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
