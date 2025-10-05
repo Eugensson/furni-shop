@@ -3,13 +3,13 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { newInStoreItem } from "@/types";
+import { NewInStoreItem } from "@/types";
 
 import "swiper/css";
 import "swiper/css/pagination";
 
 interface NewItemsSliderProps {
-  items: newInStoreItem[];
+  items: NewInStoreItem[];
 }
 
 export const NewItemsSlider = ({ items }: NewItemsSliderProps) => {

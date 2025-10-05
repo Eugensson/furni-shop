@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero";
 import { Features } from "@/components/features";
+import { Products } from "@/components/products";
 import { NewItems } from "@/components/new-items";
 import { FeaturesSecond } from "@/components/features-second";
 
@@ -10,6 +11,7 @@ const Home = () => {
       <Features />
       <NewItems />
       <FeaturesSecond />
+      <Products />
     </section>
   );
 };
