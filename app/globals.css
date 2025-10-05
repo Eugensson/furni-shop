@@ -44,6 +44,14 @@ body {
   @apply text-lg lg:text-xl leading-relaxed mb-5 lg:mb-9;
 }
 
+.btn {
+  @apply text-xl rounded-md cursor-pointer  transition-colors duration-300;
+}
+
+.btn-cta {
+  @apply py-2.25 lg:py-4 px-8.75 lg:px-20 backdrop-blur-md text-white bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)];
+}
+
 .productSlider .swiper-pagination-bullet {
   background: #23262f;
 }
