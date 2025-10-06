@@ -1,4 +1,5 @@
 import { Hero } from "@/components/hero";
+import { Footer } from "@/components/footer";
 import { Features } from "@/components/features";
 import { Products } from "@/components/products";
 import { NewItems } from "@/components/new-items";
@@ -16,6 +17,7 @@ const Home = () => {
       <Products />
       <Testimonial />
       <Newsletter />
+      <Footer />
     </section>
   );
 };

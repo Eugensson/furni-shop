@@ -1,3 +1,4 @@
+import { IconType } from "react-icons";
 import { StaticImageData } from "next/image";
 
 export type NewInStoreItem = {
@@ -24,4 +25,11 @@ export type Testimonial = {
   name: string;
   occupation: string;
   message: string;
+};
+
+export type Social = {
+  id: string;
+  label: string;
+  href: string;
+  icon: IconType;
 };

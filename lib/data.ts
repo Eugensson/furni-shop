@@ -1,3 +1,10 @@
+import {
+  IoLogoFacebook,
+  IoLogoGithub,
+  IoLogoInstagram,
+  IoLogoYoutube,
+} from "react-icons/io";
+
 import bedImg from "@/public/assets/bed.png";
 import chairImg from "@/public/assets/chair.png";
 import avatar1Img from "@/public/assets/avatar-1.jpg";
@@ -17,7 +24,7 @@ import product8Img from "@/public/assets/products/product-8.png";
 import product9Img from "@/public/assets/products/product-9.png";
 import product10Img from "@/public/assets/products/product-10.png";
 
-import { NewInStoreItem, ProductGroup, Testimonial } from "@/types";
+import { NewInStoreItem, ProductGroup, Social, Testimonial } from "@/types";
 
 export const statsData = [
   {
@@ -248,5 +255,32 @@ export const testimonialData: Testimonial[] = [
     occupation: "Architect",
     message:
       "“As a professional, I appreciate both aesthetics and durability. The furniture from this store combines solid materials with sleek design — it’s perfect for contemporary homes and office projects.”",
+  },
+];
+
+export const socialsData: Social[] = [
+  {
+    id: "1",
+    label: "Youtube",
+    href: "https://youtube.com",
+    icon: IoLogoYoutube,
+  },
+  {
+    id: "2",
+    label: "Instagram",
+    href: "https://instagram.com",
+    icon: IoLogoInstagram,
+  },
+  {
+    id: "3",
+    label: "Github",
+    href: "https://github.com",
+    icon: IoLogoGithub,
+  },
+  {
+    id: "4",
+    label: "Facebook",
+    href: "https://facebook.com",
+    icon: IoLogoFacebook,
   },
 ];
