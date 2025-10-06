@@ -1,20 +1,37 @@
+"use client";
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { IoIosCheckmarkCircle } from "react-icons/io";
+
+import { fadeIn } from "@/lib/variants";
 
 export const Features = () => {
   return (
     <section id="about" className="section">
       <div className="container">
         <div className="flex flex-col lg:flex-row lg:gap-x-25">
-          <div className="flex-1 order-1 lg:-order-1">
+          <motion.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.2 }}
+            className="flex-1 order-1 lg:-order-1"
+          >
             <Image
               src="/assets/features-1.png"
               width={554}
               height={443}
               alt="Interior Design"
             />
-          </div>
-          <div className="flex-1 flex flex-col justify-end">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.2 }}
+            className="flex-1 flex flex-col justify-end"
+          >
             <h2 className="title">We Design Spaces that Inspire Living</h2>
             <p className="subtitle">
               Furniture Flow delivers smart solutions for stylish homes and
@@ -46,7 +63,7 @@ export const Features = () => {
                 </div>
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

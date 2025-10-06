@@ -29,6 +29,7 @@ import {
   NewInStoreItem,
   ProductGroup,
   Social,
+  Stat,
   Testimonial,
 } from "@/types";
 
@@ -55,25 +56,29 @@ export const navData: NavItem[] = [
   },
 ];
 
-export const statsData = [
+export const statsData: Stat[] = [
   {
     id: "1",
-    value: "7",
+    value: 16,
+    countText: "",
     text: "Year Experience",
   },
   {
     id: "2",
-    value: "2",
+    value: 12,
+    countText: "",
     text: "Opened in the country",
   },
   {
     id: "3",
-    value: "10k+",
+    value: 10,
+    countText: "k+",
     text: "Furniture sold",
   },
   {
     id: "4",
-    value: "260+",
+    value: 260,
+    countText: "+",
     text: "Variant Furniture",
   },
 ];

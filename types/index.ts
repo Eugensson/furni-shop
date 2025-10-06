@@ -39,3 +39,10 @@ export type NavItem = {
   path: string;
   offset: number;
 };
+
+export type Stat = {
+  id: string;
+  value: number;
+  countText: string;
+  text: string;
+};
