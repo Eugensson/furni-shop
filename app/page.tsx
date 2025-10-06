@@ -2,6 +2,7 @@ import { Hero } from "@/components/hero";
 import { Features } from "@/components/features";
 import { Products } from "@/components/products";
 import { NewItems } from "@/components/new-items";
+import { Testimonial } from "@/components/testimonial";
 import { FeaturesSecond } from "@/components/features-second";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <NewItems />
       <FeaturesSecond />
       <Products />
+      <Testimonial />
     </section>
   );
 };

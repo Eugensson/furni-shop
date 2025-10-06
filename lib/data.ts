@@ -1,5 +1,9 @@
 import bedImg from "@/public/assets/bed.png";
 import chairImg from "@/public/assets/chair.png";
+import avatar1Img from "@/public/assets/avatar-1.jpg";
+import avatar2Img from "@/public/assets/avatar-2.jpg";
+import avatar3Img from "@/public/assets/avatar-3.jpg";
+import avatar4Img from "@/public/assets/avatar-4.jpg";
 import cupboardImg from "@/public/assets/cupboard.png";
 import lightingImg from "@/public/assets/lighting.png";
 import product1Img from "@/public/assets/products/product-1.png";
@@ -13,7 +17,7 @@ import product8Img from "@/public/assets/products/product-8.png";
 import product9Img from "@/public/assets/products/product-9.png";
 import product10Img from "@/public/assets/products/product-10.png";
 
-import { NewInStoreItem, ProductGroup } from "@/types";
+import { NewInStoreItem, ProductGroup, Testimonial } from "@/types";
 
 export const statsData = [
   {
@@ -209,5 +213,40 @@ export const productData: ProductGroup[] = [
         oldPrice: 82,
       },
     ],
+  },
+];
+
+export const testimonialData: Testimonial[] = [
+  {
+    id: "1",
+    avatar: avatar1Img,
+    name: "Emily Johnson",
+    occupation: "Interior Designer",
+    message:
+      "“I’m absolutely thrilled with my new living room set! The furniture quality is outstanding, and the modern design perfectly fits my home décor. Highly recommend this store to anyone who values style and comfort.”",
+  },
+  {
+    id: "2",
+    avatar: avatar2Img,
+    name: "Sophia Martinez",
+    occupation: "Homeowner",
+    message:
+      "“This furniture store exceeded my expectations — fast delivery, excellent customer service, and beautiful craftsmanship. My dining table looks even better in person than on the website.”",
+  },
+  {
+    id: "3",
+    avatar: avatar3Img,
+    name: "Olivia Brown",
+    occupation: "Real Estate Agent",
+    message:
+      "“I often recommend this store to my clients. Their furniture brings warmth and elegance to any space, and the quality is consistently impressive. A great choice for both classic and modern interiors.”",
+  },
+  {
+    id: "4",
+    avatar: avatar4Img,
+    name: "James Wilson",
+    occupation: "Architect",
+    message:
+      "“As a professional, I appreciate both aesthetics and durability. The furniture from this store combines solid materials with sleek design — it’s perfect for contemporary homes and office projects.”",
   },
 ];

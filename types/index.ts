@@ -17,3 +17,11 @@ export type Product = {
 export type ProductGroup = {
   productList: Product[];
 };
+
+export type Testimonial = {
+  id: string;
+  avatar: StaticImageData;
+  name: string;
+  occupation: string;
+  message: string;
+};
