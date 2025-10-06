@@ -24,7 +24,36 @@ import product8Img from "@/public/assets/products/product-8.png";
 import product9Img from "@/public/assets/products/product-9.png";
 import product10Img from "@/public/assets/products/product-10.png";
 
-import { NewInStoreItem, ProductGroup, Social, Testimonial } from "@/types";
+import {
+  NavItem,
+  NewInStoreItem,
+  ProductGroup,
+  Social,
+  Testimonial,
+} from "@/types";
+
+export const navData: NavItem[] = [
+  {
+    name: "home",
+    path: "home",
+    offset: -100,
+  },
+  {
+    name: "about",
+    path: "about",
+    offset: -100,
+  },
+  {
+    name: "features",
+    path: "features",
+    offset: -50,
+  },
+  {
+    name: "contact",
+    path: "contact",
+    offset: -40,
+  },
+];
 
 export const statsData = [
   {

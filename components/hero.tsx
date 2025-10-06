@@ -2,7 +2,10 @@ import { Stats } from "@/components/stats";
 
 export const Hero = () => {
   return (
-    <section className="relative h-212.5 w-full pt-56.25 pb-63.5 mb-12 lg:mb-28 bg-hero bg-cover bg-right lg:bg-center bg-no-repeat text-white">
+    <section
+      id="home"
+      className="relative h-212.5 w-full pt-56.25 pb-63.5 mb-12 lg:mb-28 bg-hero bg-cover bg-right lg:bg-center bg-no-repeat text-white"
+    >
       <div className="container text-center">
         <h1 className="mb-7.5 lg:max-w-222 mx-auto text-2xl lg:text-[64px] font-semibold lg:leading-tight">
           Modern Living Elevate Your Home Design

@@ -1,6 +1,6 @@
 export const Newsletter = () => {
   return (
-    <section className="section min-h-122.5 bg-newsletter">
+    <section id="contact" className="section min-h-122.5 bg-newsletter">
       <div className="container flex justify-center lg:justify-end">
         <div className="w-full max-w-139.5 text-center lg:text-left text-white">
           <h2 className="mb-5 mx-auto lg:mx-0 max-w-87.5 text-4xl font-semibold leading-normal">

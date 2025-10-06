@@ -3,7 +3,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 export const Features = () => {
   return (
-    <section className="section">
+    <section id="about" className="section">
       <div className="container">
         <div className="flex flex-col lg:flex-row lg:gap-x-25">
           <div className="flex-1 order-1 lg:-order-1">

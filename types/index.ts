@@ -33,3 +33,9 @@ export type Social = {
   href: string;
   icon: IconType;
 };
+
+export type NavItem = {
+  name: string;
+  path: string;
+  offset: number;
+};

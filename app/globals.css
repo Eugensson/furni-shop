@@ -36,6 +36,10 @@ body {
   @apply py-12.5 lg:py-17.5;
 }
 
+.active {
+  @apply border-b;
+}
+
 .title {
   @apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
 }
