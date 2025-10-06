@@ -45,7 +45,11 @@ body {
 }
 
 .btn {
-  @apply text-xl rounded-md cursor-pointer  transition-colors duration-300;
+  @apply text-xl rounded-lg cursor-pointer transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply h-15 px-7 font-medium bg-primary hover:bg-slate-900;
 }
 
 .btn-cta {
